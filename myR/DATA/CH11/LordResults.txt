@@ -1,0 +1,90 @@
+
+Detection of Differential Item Functioning using Lord's method 
+with 1PL model and without item purification
+
+Engine 'ltm' for item parameter estimation 
+ 
+Common discrimination parameter: fixed to 1
+
+No set of anchor items was provided 
+ 
+No p-value adjustment for multiple comparisons 
+ 
+Lord's chi-square statistic: 
+ 
+            Stat.  P-value   
+S1wantCurse 1.3724 0.2414    
+S1WantScold 1.2657 0.2606    
+S1WantShout 1.5437 0.2141    
+S2WantCurse 2.8839 0.0895  . 
+S2WantScold 1.8915 0.1690    
+S2WantShout 8.3601 0.0038  **
+S3WantCurse 0.1852 0.6670    
+S3WantScold 1.2368 0.2661    
+S3WantShout 2.1805 0.1398    
+S4WantCurse 1.6452 0.1996    
+S4WantScold 0.0116 0.9142    
+S4WantShout 3.4935 0.0616  . 
+S1DoCurse   0.4740 0.4911    
+S1DoScold   3.1282 0.0770  . 
+S1DoShout   0.5578 0.4552    
+S2DoCurse   5.8219 0.0158  * 
+S2DoScold   6.5842 0.0103  * 
+S2DoShout   0.0661 0.7972    
+S3DoCurse   5.4206 0.0199  * 
+S3DoScold   3.5481 0.0596  . 
+S3DoShout   0.3572 0.5501    
+S4DoCurse   1.4774 0.2242    
+S4DoScold   1.7986 0.1799    
+S4DoShout   1.0130 0.3142    
+
+Signif. codes: 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1  
+ 
+Detection threshold: 3.8415 (significance level: 0.05)
+
+Items detected as DIF items: 
+            
+ S2WantShout
+ S2DoCurse  
+ S2DoScold  
+ S3DoCurse  
+
+Effect size (ETS Delta scale): 
+ 
+Effect size code: 
+ 'A': negligible effect 
+ 'B': moderate effect 
+ 'C': large effect 
+ 
+            mF-mR   deltaLord  
+S1wantCurse  0.4116 -0.9673   A
+S1WantScold  0.3749 -0.8810   A
+S1WantShout  0.4092 -0.9616   A
+S2WantCurse  0.6323 -1.4859   B
+S2WantScold  0.4608 -1.0829   B
+S2WantShout  0.9654 -2.2687   C
+S3WantCurse  0.1441 -0.3386   A
+S3WantScold -0.3703  0.8702   A
+S3WantShout  0.5685 -1.3360   B
+S4WantCurse  0.4431 -1.0413   B
+S4WantScold -0.0356  0.0837   A
+S4WantShout  0.6742 -1.5844   C
+S1DoCurse   -0.2562  0.6021   A
+S1DoScold   -0.6110  1.4359   B
+S1DoShout    0.2564 -0.6025   A
+S2DoCurse   -0.9191  2.1599   C
+S2DoScold   -0.8704  2.0454   C
+S2DoShout   -0.0927  0.2178   A
+S3DoCurse   -0.7801  1.8332   C
+S3DoScold   -0.6633  1.5588   C
+S3DoShout   -0.2872  0.6749   A
+S4DoCurse   -0.4281  1.0060   B
+S4DoScold   -0.4439  1.0432   B
+S4DoShout    0.4173 -0.9807   A
+
+Effect size codes: 0 'A' 1.0 'B' 1.5 'C' 
+ (for absolute values of 'deltaLord') 
+ 
+Output was captured and saved into file
+ '/home/chensf/RDATA/example/CH7/LordResults.txt'
+
